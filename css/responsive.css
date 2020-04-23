@@ -13,6 +13,18 @@
         margin-bottom: 50px;
     }
 
+    .flex-main img {
+        width: 369px;
+        height: 432px;
+    }
+
+    .contact {
+        flex: auto;
+        margin: 0px 50px 30px 50px;
+    }
+
+
+
     /*  .txt-contents{*/
     /*    margin-bottom:50px;*/
     /*  }*/
@@ -58,6 +70,31 @@
     .lesson {
         width: 100%;
         display: block;
+    }
+
+    .flex-extra {
+        padding: 20px;
+        display: flex;
+    }
+
+    .flex-main {
+        width: 100%;
+        display: block;
+    }
+
+    .flex-main img {
+        width: 580px;
+        height: 300px;
+    }
+
+    .message {
+        width: 250px;
+        height: auto;
+    }
+
+    .contact {
+        margin-left: 200px;
+        margin-right: 200px;
     }
 
 }
